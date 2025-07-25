@@ -111,7 +111,7 @@ const Index = () => {
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border-4 border-green-700 shadow-xl">
                 <Icon name="Server" size={48} className="text-green-400 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-white mb-2">IP адрес</h3>
-                <p className="text-green-200 text-xl font-mono">play.minshakh.ru</p>
+                <p className="text-green-200 text-xl font-mono">PedroRUS1.aternos.me</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border-4 border-green-700 shadow-xl">
                 <Icon name="Clock" size={48} className="text-blue-400 mx-auto mb-4" />
