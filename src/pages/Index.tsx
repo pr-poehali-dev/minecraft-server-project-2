@@ -55,7 +55,10 @@ const Index = () => {
             ⚔️ Лучший игровой сервер Minecraft ⚔️
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Button className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 text-lg border-4 border-green-800 shadow-xl transform hover:scale-105 transition-all">
+            <Button 
+              className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 text-lg border-4 border-green-800 shadow-xl transform hover:scale-105 transition-all"
+              onClick={() => document.getElementById('rules-section')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Icon name="Play" className="mr-2" />
               Начать играть
             </Button>
@@ -76,7 +79,7 @@ const Index = () => {
       </div>
 
       {/* Rules Section */}
-      <div className="bg-gradient-to-b from-green-600 to-green-800 py-16">
+      <div id="rules-section" className="bg-gradient-to-b from-green-600 to-green-800 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-white mb-12" 
               style={{ fontFamily: 'monospace', textShadow: '3px 3px 0px #1a4c40' }}>
