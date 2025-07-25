@@ -121,7 +121,7 @@ const Index = () => {
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg border-4 border-green-700 shadow-xl">
                 <Icon name="Gamepad2" size={48} className="text-orange-400 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-white mb-2">Режимы</h3>
-                <p className="text-orange-200 text-xl">Выживание, PvP, Креатив</p>
+                <p className="text-orange-200 text-xl">Выживание</p>
               </div>
             </div>
           </div>
