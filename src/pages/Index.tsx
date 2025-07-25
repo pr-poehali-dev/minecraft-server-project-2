@@ -24,6 +24,11 @@ const Index = () => {
       icon: 'Home',
       title: 'Не спамить',
       description: 'Не флудите в чате и не злоупотребляйте капсом'
+    },
+    {
+      icon: 'Building',
+      title: 'Зона постройки',
+      description: 'Постройки разрешены от 500 блоков от спавна и дальше'
     }
   ];
 
@@ -77,7 +82,7 @@ const Index = () => {
               style={{ fontFamily: 'monospace', textShadow: '3px 3px 0px #1a4c40' }}>
             📜 Правила сервера
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
             {rules.map((rule, index) => (
               <Card key={index} className="bg-white/95 border-4 border-gray-600 shadow-2xl transform hover:scale-105 transition-all hover:shadow-3xl">
                 <CardHeader className="text-center pb-2">
