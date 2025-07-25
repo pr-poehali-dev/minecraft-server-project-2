@@ -55,7 +55,10 @@ const Index = () => {
             ⚔️ Лучший игровой сервер Minecraft ⚔️
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Button className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 text-lg border-4 border-green-800 shadow-xl transform hover:scale-105 transition-all">
+            <Button 
+              className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 text-lg border-4 border-green-800 shadow-xl transform hover:scale-105 transition-all"
+              onClick={() => window.open('https://t.me/mineeecrafters', '_blank')}
+            >
               <Icon name="Play" className="mr-2" />
               Начать играть
             </Button>
