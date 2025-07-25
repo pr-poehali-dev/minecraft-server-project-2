@@ -66,7 +66,7 @@ const Index = () => {
           </div>
           <div className="flex justify-center gap-6 text-white">
             <Badge className="bg-blue-600 text-white px-4 py-2 text-lg font-bold border-2 border-blue-800">
-              💎 Версия 1.20.1
+              💎 Версия 1.21.4
             </Badge>
             <Badge className="bg-orange-600 text-white px-4 py-2 text-lg font-bold border-2 border-orange-800">
               🏆 Топ рейтинг
