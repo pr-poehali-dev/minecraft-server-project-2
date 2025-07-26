@@ -64,7 +64,7 @@ const Index = () => {
             </Button>
             <Button variant="outline" className="bg-white/90 hover:bg-white text-green-800 font-bold py-4 px-8 text-lg border-4 border-green-600 shadow-xl transform hover:scale-105 transition-all">
               <Icon name="Users" className="mr-2" />
-              Онлайн: 247
+              Онлайн: 0
             </Button>
           </div>
           <div className="flex justify-center gap-6 text-white">
